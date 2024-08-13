@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" id="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge IT | About us</title>
+    <link rel="icon" href="title.jpg" type="img/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  
+</head>
+<body id="page-body">
+  
+
+  <button id="back-to-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+  <section class="topbar">
+    <div class="sticky-lg-top d-none d-lg-block overflow-y-hidden py-2 hidebar " >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                     <a href="#" class="text-white"><i class="fa-solid fa-mobile-screen-button text-dark"></i> 01739993103</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="mailto:support@kit.edu.bd" class="text-white"><i class="fa-regular fa-envelope text-dark"></i> support@kit.edu.bd</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ </section>
+ <section class="topmenu sticky-lg-top  nick">
+  <nav class="navbar navbar-expand-lg overflow-y-hidden py-2 bg-body-white m-2">
+      <div class="container">        
+                <button class="navbar-toggler shadow-none border-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <img src="menu.png" class="img-fluid" alt="menu_bar">
+        </button>
+        <a class="navbar-brand mx-auto" href="#"><img src="logo.png" alt="KnowladgeIT_logo" class="img-fluid " style="width: 140px;"></a>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header ">
+              <a class="navbar-brand mx-auto" href="#"><img src="logo.png" alt="offcanvas_logo" class="img-fluid " style="width: 140px;"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body offcanvas-m mx-auto ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item mx-md-1">
+                <a class="nav-link text-center active fw-bold" aria-current="page" href="index.html" data-lang-en="Home" data-lang-bn="হোম">Home </a>
+              </li>
+              <li class="nav-item mx-md-1">
+                <a class="nav-link text-center active fw-bold" aria-current="page" href="about.html" data-lang-en="About Us" data-lang-bn="আমাদের পরিচিতি">About Us</a>
+              </li>
+             
+  
+              <li class="nav-item mx-md-1">
+                <a class="nav-link text-center active fw-bold" aria-current="page" href="seminar.html" data-lang-en="Seminar" data-lang-bn="সেমিনার">Seminar</a>
+              </li>
+              <li class="nav-item mx-md-2">
+                <a class="nav-link text-center active fw-bold" aria-current="page" href="contact.html"data-lang-en="Contact" data-lang-bn="যোগাযোগ">Contact</a>
+              </li>
+             <a href="All_courses.html" class="mx-md-3"> <button type="button" class="btn btn-color shadow-sm  "  data-lang-en="Course Preview" data-lang-bn="কোর্স প্রিভিউ"> Course Preview  </button></a>
+            </ul>
+                          
+                    </div>
+
+          </div>
+          <div class="col-md-2 col-4">
+            <select class="btn btn-light" id="language-dropdown" onchange="changeLanguage()">
+<option value="en"><img src="" alt=""> English</option>
+<option value="bn"> বাংলা</option>
+</select>
+<span class="login-icon shadow-lg rounded-circle">
+<i class="fa-regular  fa-user" onclick="openMenu()"></i>
+
+</span>
+
+</div>
+
+</div>
+</div>
+<div class="dashboard  bg-transparent"  id="dashboard">
+  <div class="profile text-center py-5" >
+    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+    <i class="fa-regular  fa-user"></i>
+
+    <h4>Nick roy</h4>
+  </div>  
+  <ul class="dash">
+    <li  class="tab active">Course</li>
+    <li class="tab">Management</li>
+    <li class="tab">Payment</li>
+    <li class="tab">Edit</li>
+  </ul>
+        </div>
+
+      </div>
+ 
+    </nav>
+ 
+</section>
+<section class="page-contact">
+  <div class="tab-content">
+    <div class="tab-pane active">
+      <div class="container">
+        <h2>My Course  </h2>
+    
+          <div class="content-box d-flex justify-content-around">
+            <div class="card" style="width: 18rem;">
+              <img src="images/course/civil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h3>Auto CAD 3D</h3>
+               <a href="stu-course.html">Click hare</a>
+              </div>
+            </div>
+        
+    
+            <div class="card " style="width: 18rem;">
+              <img src="images/course/civil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h3>Auto CAD 3D</h3>
+               <a href="stu-course.html">Click Here</a>
+              </div>
+            </div>
+          </div>
+    
+    
+     
+    
+    
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="container">
+        <h2>Management </h2>
+    
+          <div class="content-box d-flex justify-content-around">
+            <div class="card" style="width: 18rem;">
+              <img src="images/course/civil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h3>Auto CAD 3D</h3>
+               <a href="#">Click hare</a>
+              </div>
+            </div>
+        
+    
+            <div class="card " style="width: 18rem;">
+              <img src="images/course/civil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h3>Auto CAD 3D</h3>
+               <a href="#">Click Here</a>
+              </div>
+            </div>
+          </div>
+    
+    
+     
+    
+    
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Payment Discription</h2>
+            
+          </div>
+        </div>
+      </div>
+    
+
+    </div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
+<script src="home-slider.js"></script>
+
+<script src="preloader.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
+
+    <script src="tab-scrollable.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+         <script data-no-minify="1" async src="script.js"></script>
+     
+       
+    <script src="venobox.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script>
+  var sidemenu = document.getElementById("dashboard");
+
+  function openMenu(){
+    sidemenu.style.right = "0";
+  };
+  function closeMenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const tabs = document.querySelectorAll('.tab');
+const tabContent = document.querySelectorAll('.tab-pane');
+
+function showTab(index) {
+    tabs.forEach(tab => {
+        tab.classList.remove('active');
+    });
+    tabs[index].classList.add('active');
+
+    tabContent.forEach(pane => {
+        pane.classList.remove('active');
+    });
+    tabContent[index].classList.add('active');
+}
+
+tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => {
+        showTab(index);
+    });
+});
+
+</script>
+
+</body>
+</html>
